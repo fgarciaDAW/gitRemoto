@@ -5,7 +5,7 @@ package taller;
 
 public class Coche {
     // Atributos
-    private Motor motor;
+    private final Motor motor;
     private Rueda ruedaDI;
     private Rueda ruedaDD;
     private Rueda ruedaTI;
@@ -40,9 +40,6 @@ public class Coche {
         return motor;
     }
 
-    public void setMotor(Motor motor) {
-        this.motor = motor;
-    }
 
     public Rueda getRuedaDI() {
         return ruedaDI;
